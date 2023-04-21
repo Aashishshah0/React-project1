@@ -1,0 +1,19 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+h2{
+    color: black;
+    margin: auto;
+}
+.BookImage{
+    width: 800px;
+    height: 400px ;
+}
