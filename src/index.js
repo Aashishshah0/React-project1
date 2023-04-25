@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Ok from './nested'
 import './index.css';
-
+import {header} from './navbar.jsx';
 function Astened() { 
     return <h2>BookChor</h2>
 } 
@@ -10,6 +10,7 @@ function Astened() {
 function Main() {
     return (
         <div>
+            <header></header>
             <Astened></Astened>
             <Ok></Ok>
             <Astened></Astened>

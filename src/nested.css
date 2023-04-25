@@ -1,0 +1,9 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+}

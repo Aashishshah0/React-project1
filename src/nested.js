@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './nested.css' 
 
 
 function Ok(){
@@ -8,11 +9,15 @@ return (<About></About>)
 
 function About(){
     return(
-        <div>
+        <div className='container'>
         <Image ms="hello"></Image>
+        <div className='contents'> 
+
+        
         <Title></Title>
         <Des></Des>
         <Button></Button>
+        </div>
       
         </div>
         )

@@ -9,37 +9,12 @@ body{
     color: blueviolet;
 }
 
-main{
-    width: 90%vw;
-    max-width: 1170px;
-    margin: 5rem auto;
-    display: auto;
-    gap: 2rem;
-}
-h2{
-    color: black;
-}
 
-.BookImage{
-    display:inline;
-    width:40%;
-    height: 400px ;
-    align-items: flex-start;
-}
-.Author{
-    width: 60%;
-    display: inline-block;
-    text-align: center;
-}
-.Des{
-    padding-left: 23%;
-    width: 57%
-}
 
-@media screen (max-width: 767px){
+/* @media screen (max-width: 767px){
     .BookImage{
         width: 780px;
         align: center;
     }
 
-}
+} */
